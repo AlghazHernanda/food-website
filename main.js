@@ -24,4 +24,6 @@ $(document).ready(function ($) {
     function myFunction() {
         elementFirst.classList.toggle('sticky_head');
     }
+
+    // batas headerrrrrrrrrrrrrrrrrrr
 })
