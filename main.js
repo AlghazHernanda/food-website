@@ -24,8 +24,36 @@
 //     function myFunction() {
 //         elementFirst.classList.toggle('sticky_head');
 //     }
+//     var scene = $(".js-parallax-scene").get(0);
+//     var parallaxInstance = new Parallax(scene);
 
 //     // batas headerrrrrrrrrrrrrrrrrrr
+
+//     // untuk menu
+//     jQuery(".filters").on("click", function () {
+//         jQuery("#menu-dish").removeClass("bydefault_show");
+//     });
+//     $(function () {
+//         var filterList = {
+//             init: function () {
+//                 $("#menu-dish").mixItUp({
+//                     selectors: {
+//                         target: ".dish-box-wp",
+//                         filter: ".filter",
+//                     },
+//                     animation: {
+//                         effects: "fade",
+//                         easing: "ease-in-out",
+//                     },
+//                     load: {
+//                         filter: ".all, .breakfast, .lunch, .dinner",
+//                     },
+//                 });
+//             },
+//         };
+//         filterList.init();
+//     });
+
 
 // })
 
